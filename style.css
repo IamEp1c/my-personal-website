@@ -1,3 +1,70 @@
 body {
-    background: lightblue;
+        display: block;
+        font-size: 1em;
+        line-height: 1.25;
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        margin-top: 45px;
+    }
+body {
+    margin: 8px;
 }
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: aqua;
+    width: 100vw;
+    z-index: 10;
+    border-bottom: 1px solid;
+    font-size: x-large;
+}
+
+.first-a-link {
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+
+
+nav {
+    display: block;
+}
+
+.name-intro {
+    text-align: right;
+    font-size: x-large;
+
+}
+
+.title-intro {
+text-align: right;
+font-size: x-large;
+}
+
+.first-paragraph {
+    text-align: left;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: aqua;
+    width: 100vw;
+    border-top: 1px solid;
+    z-index: 10;
+}
+
+
+
+
+
+
