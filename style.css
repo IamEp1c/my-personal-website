@@ -11,6 +11,9 @@ body {
     margin: 8px;
 }
 
+.laptop-emoji {
+    text-align: center;
+}
 .hr-line {
     border: none;
     border-top: 3px double #333;
@@ -37,7 +40,7 @@ body {
     margin-top: 50px;
     display: flex;
     width: 190px;
-    border: 5px solid;
+    border: 5px solid black;
     margin-left: auto;
     margin-right: auto;
 }
@@ -63,19 +66,21 @@ body {
     }
 }
 
-.first-a-link:hover{
-    word-spacing: 20px;
-    text-align: left;
-    margin: auto;
+.first-a-link {
+    margin-right: 200px;
+
+}
+.first-a-link:hover {
+
     color: white;
     text-decoration: underline;
-    animation: rotation 2s infinite linear;
+
 }
 
-
+.second-a-link {
+    margin-left: 20px
+}
 .second-a-link:hover{
-    text-align: right;
-    margin: auto;
     color: white;
     text-decoration: underline;
 }
@@ -98,22 +103,10 @@ font-size: x-large;
 }
 
 .first-paragraph {
+    font-weight:100;
     text-align: left;
     max-width: 1000px;
     margin: auto; 
-}
-
-.second-paragraph {
-    text-align: left;
-    max-width: 1000px;
-    margin: auto;
-    padding: 1%;
-}
-
-.third-paragraph {
-    text-align: left;
-    max-width: 1000px;
-    margin: auto;
     padding: 1%;
 }
 
